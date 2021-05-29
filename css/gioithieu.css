@@ -1,0 +1,96 @@
+main{
+    overflow: unset !important;
+}
+
+#introduction{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 7.36%;
+    margin-right: 7.15%;
+    margin-top: 26.34%;
+    
+}
+#introduction .intro{
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: left;    
+    color: #0061B0;
+    margin-left: 28.26%;
+    margin-right: 38.4%;
+    padding-top: 127px;
+    margin-bottom: 0;
+}
+#introduction .namecopan{
+    margin-left: 41.18%;
+    margin-right: 28.06%;
+    font-size: 96px;
+    line-height: 119px;
+    font-weight: bold;
+    color: #0061B0;
+    margin-bottom: 0;
+}
+
+#introduction .aboutIntroduction{
+    margin-left: 67px;
+    margin-right: 55px;
+}
+#introduction .aboutIntroduction .Bold{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+
+#introduction .aboutIntroduction .faith{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+#introduction .aboutIntroduction .infomation{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+#introduction .maiatech .icon{
+    justify-content: center;
+    padding-bottom: 70px;
+}
+#introduction .maiatech .icon p{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: #0381E8;
+}
+#introduction .maiatech .icon > p > a{
+    color: #fff !important;
+    line-height: 32px;
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    background-color: transparent;
+
+}
+
+
+@media only screen and (max-width: 600px){
+    #introduction .intro{
+        padding-top: 0;
+        margin-top: 200px;
+    }
+    
+    #introduction .intro,
+    #introduction .namecopan{
+        font-size: 40px;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,111 @@
+
+main{
+    overflow: unset !important;
+}
+form{
+    margin-left: 37.85%;
+    margin-right: 7.22%;
+    margin-top: 26.34%;
+    height: 1000px;
+    width: 791px;
+    padding-top: 149px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+#formDK form > div{
+    margin-left: 117px;
+    margin-right: 115px;
+}
+
+#formDK form input{
+    padding: 20px 20px 20px 0;
+    outline: none;
+    margin-top: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #746F6F;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #746F6F;
+}
+
+
+#formDK form label{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0061B0;
+    margin-top: 45px;
+    margin-bottom: 13px;
+}
+#formDK form .message{
+    height: 208px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    background-color: rgba(51, 163, 255, 0.2);;
+}
+#formDK form .btn{
+    margin-top: 54px;
+}
+
+.contac_lh .contact_lh{
+    margin-left: 672px;
+    margin-right: 127px;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 115px;
+    text-align: left;
+
+}
+
+.contac_lh .name{
+    margin-left: 61.94%;
+    margin-right: 7.29%;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 119px;
+    color: #0061B0;
+
+}
+.contac_lh .phone_number{
+    margin-left: 78.62%;
+    margin-right: 7.22%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 146.77%;
+    color: #000000;
+
+}
+.contac_lh span{
+    font-weight: normal !important;
+}
+
+.tech_shape{
+    margin-top: -900px;
+    width: 33.333%;
+
+}
+.tech_shape .img_crilceline{
+    width: 100%;
+    margin-top: 41.6%;
+    margin-left: 139px;
+}
+
+@media only screen and (max-width: 600px){
+    .mobi_lh{
+        display: none !important;
+    }
+    form{
+        width: 90%;
+        margin: auto;
+        margin-top: 200px;
+    }   
+    .flex-column{
+        width: 70%;
+        margin: auto !important;
+    }
+}
